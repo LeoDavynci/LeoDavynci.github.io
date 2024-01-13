@@ -1,0 +1,38 @@
+/*Colors*/
+.gray {color:#5D5C61}
+.teal {color:#379683}
+.lightblue {color:#7395AE}
+.cyan {color:#557A95}
+.cream {color:#B1A296}
+.jetblack {color:#343434}
+.bonewhite {color:#f9f6ee}
+
+
+html{
+    //scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+
+body{
+    background-color: #0b001f;
+    color: #f9f6ee;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
